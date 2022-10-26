@@ -27,11 +27,16 @@ main > .container {
 .bg-pink-lighten-1{
   background-color: #fce4ec !important;
 }
+.bg-purple{
+  background-color: #9c27b0 !important; 
+  color: #fce4ec !important;
+}
+
 
 .btn-primary{
   background-color: #9c27b0 !important;
-  border-color: #9c27b0 !important;
-  color: white;
+  color: #fce4ec !important;
+  border-color: #fce4ec !important;
   
 }
 
