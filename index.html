@@ -42,8 +42,8 @@
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#" class="nav-link text-pink-lighten-1" aria-current="page">Inicio</a></li>
         <li class="nav-item"><a href="#servicos" class="nav-link text-pink-lighten-1" >Serviços</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-pink-lighten-1">Portifolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-pink-lighten-1">Contatos</a></li>
+        <li class="nav-item"><a href="#portifolio" class="nav-link text-pink-lighten-1">Portifolio</a></li>
+        <li class="nav-item"><a href="#contactos" class="nav-link text-pink-lighten-1">Contatos</a></li>
         <li class="nav-item"><a href="#sobre" class="nav-link text-pink-lighten-1">Sobre nós</a></li>
       </ul>
     </header>
@@ -54,8 +54,12 @@
 	  <div class="container py-5">
 	    <h1 class="display-5 fw-bold text-purple">Consultoria e Desenvolvimete de Software</h1>
 	    <p class="col-md-8 fs-4 text-purple">Somos uma empresa angolana que nasceu em 2022, atuando na área de desenvolvimento de software, consultoria e vendas gerando valores para os nossos clientes. </p>
-	    <button class="btn btn-primary btn-lg" type="button">Entrar em contacto connosco</button>
-	  </div>
+		<a href="#contactos">
+			<button class="btn btn-primary btn-lg" type="button" id="#contactos">
+				Entrar em contacto connosco
+			</button>
+		</a>
+	</div>
 	</div>
 
 
@@ -98,22 +102,93 @@
 	<!-- End Service-->
 
 
-
+	<!-- About -->
 	<div class="row align-items-md-stretch">
-	  <div class="col-md-6">
-	    <div class="h-100 p-5 text-white bg-pink-lighten-1 rounded-3">
-	      <h2 class="text-purple" id="sobre">Sobre nós</h2>
-	      <p class="text-purple">Somos uma empresa angolana que atua principalmente na area de Analise e Desenvolvimento de aplicações web, desktop e mobile. Desenvolvendo soluções para clientes da America Latina e da Europa.</p>
-	      <button class="btn btn-primary btn-lg" type="button">Entrar em contacto connosco</button>
-	    </div>
-	  </div>
-	  <div class="col-md-6">
-	    <div class="h-100 p-5 bg-purple border rounded-3">
-	      <h2>Nosso comprimisso</h2>
-	      <p>Cuidamos dos seus projetos desenvolvendo</p>
-	    </div>
+		<div class="col-md-6">
+			<div class="h-100 p-5 text-white bg-pink-lighten-1 rounded-3">
+			<h2 class="text-purple" id="sobre">Sobre nós</h2>
+			<p class="text-purple">Somos uma empresa angolana que atua principalmente na area de Analise e Desenvolvimento de aplicações web, desktop e mobile. Desenvolvendo soluções para clientes da America Latina e da Europa.</p>
+			<a href="#contactos">
+				<button class="btn btn-primary btn-lg" type="button">
+					Entrar em contacto connosco
+				</button>
+			</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="h-100 p-5 bg-purple border rounded-3">
+			<h2>Nosso comprimisso</h2>
+			<p>Cuidamos dos seus projetos desenvolvendo</p>
+			</div>
+		</div>
+	</div>
+	<!-- End About -->
+
+<!-- Contact -->
+
+	<div class="row align-items-md-stretch my-5 justify-content-center bg-purple" id="contactos">
+		<div class="col-md-6 ">
+			<div class="h-100 p-5 bg-purple border rounded-3">
+				<p class="fs-3 text-center">Deixe uma mensagem</p>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Nome</label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vicente António Adicionatec">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Email address</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" 
+					placeholder="Olá Adicionatec eu gostaria de obter uma aplicação web para minha empresa."></textarea>
+				</div>
+				<div class="mb-3">
+					<div class="d-grid gap-2">
+						<button class="btn btn-danger" type="button">Enviar agora</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- End Contact-->
+
+
+<!-- Portifolio -->
+<div class="text-center my-5">
+	<div class="container" id="portifolio">
+	  <h3 class="text-purple" >Projectos feitos</h3>
+	  <div class="row justify-content-center">
+		<div class="col-sm-4 ">
+		  <div class="d-inline p-2 ">
+			<i class="bi bi-code-slash i-large"></i><br>
+		  </div>
+		  <div class="d-inline p-2">
+			<p class="i-description"> Desenvolvemos sistemas, plataformas ou aplicativos para o seu negócio. Contamos com profissionais capacitados.</p>
+		  </div>
+		</div>
+		<div class="col-sm-4 ">
+		  <div class="d-inline p-2 ">
+			<i class="bi bi-gear-fill i-large"></i><br>
+		  </div>
+		  <div class="d-inline p-2">
+			 <p class="i-description"> Realizamos o teu sonho de ser o seu próprio gestor dos teus softwares ou plataforma de negócios para aumentar a tua renda. </p>
+		  </div>
+		</div>
+		<div class="col-sm-4 ">
+		  <div class="d-inline p-2 ">
+			<i class="bi bi-headset i-large"></i><br>
+		  </div>
+		  <div class="d-inline p-2">
+			 <p class="i-description"> Somos uma consultora de desenvolvimento de software que atua especificamente com Ruby on Rails.</p>
+		  </div>
+		</div>
 	  </div>
 	</div>
+  </div>
+<!-- End Portifolio -->
+
 </main>
 
 
